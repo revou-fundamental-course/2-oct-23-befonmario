@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Suhu</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Suhu</h1>
+    </header>
+    <main>
+            <section class="input-section">
+            <label for="celcius">Celcius (&#176C)</label>
+            <input id="celcius" type="text" placeholder="0">
+            <br>
+            <div id="input-button">
+                <button onclick="convertCel()">Konversi</button>
+                <button onclick="reset()">Reset</button>
+                <button onclick="convertFahr()">Reverse</button>
+            </div>
+            <div>
+                <label for="fahrenheit">Fahrenheit (&#176F)</label>
+                <input id="fahrenheit" type="text">
+            </div>
+            <div>
+                <br>
+                <label for="calc">Cara Kalkulasi :</label>
+                <input id="calc" type="text">
+            </div>
+            
+            <script src="js/script.js"></script>
+        </section>
+    </main>
+</body>
+</html>
